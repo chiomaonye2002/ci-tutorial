@@ -294,7 +294,7 @@ Use following Script
       stages{
         stage("Checkout"){
             steps{
-              git branch: 'maven-nexus', url: 'https://github.com/showmikb/eagles-batch-devops-projects.git'
+              git branch: 'main', url: 'https://github.com/chiomaonye2002/ci-tutorial.git'
             }
         }
       }
